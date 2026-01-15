@@ -130,13 +130,16 @@ figcaption {
 }
 
 
-.products-container img {
- width: 100%;
+.products-container img, .categories > li  {
+
  transition: transform 0.4s ease, box-shadow 0.3s ease-in;
+}
+.products-container img{
+   width: 100%;
 }
 
 
-.products-container img:hover {
+.products-container img:hover, .categories > li:hover{
  transform: translateY(-4px);
  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
  cursor: pointer;
@@ -195,6 +198,16 @@ figcaption {
    font-weight: bold;
  }
 }
+
+
+
+/* .categories > li:hover{
+  color: blue;
+  cursor: pointer;
+  transform: translateY(-4px);
+ box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+ cursor: pointer;
+} */
 
 
 footer{
