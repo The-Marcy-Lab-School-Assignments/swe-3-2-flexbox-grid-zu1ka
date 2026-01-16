@@ -92,6 +92,7 @@ section > aside {
  /* background-color: red; */
  width: 100%;
  padding: 10px;
+ /* color:#fff ; */
 }
 
 
@@ -145,6 +146,27 @@ figcaption {
  cursor: pointer;
 }
 
+/* section testing */
+
+/* figure{
+  background-color: purple;
+  padding: 10px;
+  color: white;
+}
+header > nav{
+  background-color: #fff;
+  padding: 20px;
+}
+header > p{
+  color: white;
+} */
+ 
+section > aside {
+ display: none;
+}
+main > h1 {
+   margin: 40px 0;
+ }
 
 
 
@@ -173,6 +195,12 @@ figcaption {
  .products-container {
    grid-template-columns: repeat(2, 1fr);
  }
+
+section > aside {
+    display: block;
+  }
+
+
 }
 
 
@@ -201,17 +229,27 @@ figcaption {
 
 
 
-/* .categories > li:hover{
-  color: blue;
-  cursor: pointer;
-  transform: translateY(-4px);
- box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
- cursor: pointer;
-} */
-
-
 footer{
   /* background-color: red; */
   text-align: center;
   padding: 25px;
+}
+
+
+@media (min-width: 1200px) {
+  .products-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  section > aside {
+    flex: 0 0 300px;
+  }
+
+  nav > a {
+    margin: 0 30px;
+  }
+
+  main > h1 {
+    margin: 60px 0;
+  }
 }
