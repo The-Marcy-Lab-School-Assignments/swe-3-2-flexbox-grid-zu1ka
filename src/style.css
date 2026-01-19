@@ -30,6 +30,7 @@ nav > a {
   font-weight: bold;
 }
 
+ 
 nav > a:hover {
   text-decoration: underline;
 }
@@ -93,6 +94,7 @@ section > aside {
  width: 100%;
  padding: 10px;
  /* color:#fff ; */
+ 
 }
 
 
@@ -104,6 +106,7 @@ aside > ul {
  padding: 0;
  margin: 0;
  list-style: none;
+
 }
 
 
@@ -112,10 +115,6 @@ aside > ul > li {
 }
 
 
-section > main {
- flex: 1 0 auto;
- padding: 10px;
-}
 figcaption {
    font-weight: bold;
  }
@@ -146,21 +145,6 @@ figcaption {
  cursor: pointer;
 }
 
-/* section testing */
-
-/* figure{
-  background-color: purple;
-  padding: 10px;
-  color: white;
-}
-header > nav{
-  background-color: #fff;
-  padding: 20px;
-}
-header > p{
-  color: white;
-} */
- 
 section > aside {
  display: none;
 }
@@ -184,9 +168,6 @@ main > h1 {
  }
 
 
- section > main {
-   flex: 1 0 auto;
- }
   figcaption {
    font-weight: bold;
  }
